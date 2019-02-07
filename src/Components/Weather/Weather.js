@@ -43,6 +43,9 @@ class Weather extends React.Component{
 
                <div>
                    hello
+                   {console.log(this.props.data)}
+                   {console.log("Hellooo")}
+
                </div>
         
             </div>

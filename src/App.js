@@ -2,6 +2,7 @@ import React from "react";
 import Weather from "./Components/Weather/Weather";
 import Form from "./Components/Form/Form";
 import Titles from "./Components/Title/Title";
+import LoadDetails from "./Components/LoadDetails/LoadDetails";
 
 // const Api_Key = "8d2de98e089f1c28e1a22fc19a24ef04";
 // const Api_Key = "3472f85c5a93466aea8a40db53de8a9b";
@@ -128,7 +129,13 @@ class App extends React.Component {
                     error={this.state.error}
                     data={List}
                   />
+
+                <div>
+                  <LoadDetails />
                 </div>
+                
+                </div>
+                
               </div>
             </div>
           </div>
